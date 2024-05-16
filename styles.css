@@ -1,0 +1,222 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+#logo{
+    margin-left: 5%;
+    margin-top: 100px;
+    max-width: 50%;
+    height: 70%;
+}
+#home p{
+  width: 100%;
+  height: auto;
+}
+#home {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0 0 0 5px blue, 0 0 0 10px yellow, 0 0 0 15px blue;
+    border: none;
+    cursor: default;
+    padding: 50px;
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+    font-size: 18px;
+}
+
+#image{
+    object-fit: contain;
+    width: 250%;
+    height: auto;
+    padding-left: 80px;
+}
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+#contact h4{
+    color: #fff;
+}
+#contact a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+#contact {
+    color: #FFFFFF;
+    background:  #333;
+    border-top: 1px solid #000000;
+    -webkit-box-shadow: 0 1px 1px 0px rgba(255,255,255,0.3)inset;
+    -moz-box-shadow: 0 1px 1px 0px rgba(255, 255, 255, 0.3) inset;
+    box-shadow: 0 1px 1px 0px rgba(255,255,255,0.3)inset;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 17px;
+}
+
+#news{
+  display: flex;
+  background-color: white;
+  box-shadow: 0 0 0 5px blue, 0 0 0 10px yellow, 0 0 0 15px blue;
+  border: none;
+  cursor: default;
+  margin: 5%;
+  height: auto;
+  cursor: default;
+}
+
+#box{
+  width: 100%; 
+  justify-content: center;
+  padding: 30px;
+  cursor: default;
+}
+
+#box p{
+  padding-top: 50px;
+}
+
+#box img{
+  padding: 50px;
+  width: 880px;
+  height: 440px;
+  object-fit: contain;
+  transition: transform .35s;
+}
+
+#box img:hover {
+  transform: scale(1.14);
+}
+
+#item{
+  padding-right: 3%;
+  margin-top: 3%;
+  display: inline-flex;
+  box-shadow: 3px 3px 3px 3px grey;
+}
+
+img,
+picture,
+video {
+  max-width: 100%;
+}
+
+#news-title h1{
+  margin: 3%;
+  text-align: center;
+  font-size: 500%;
+  text-align: center;
+  color: #ffcb08;
+  font-family: "PT Sans", sans-serif;
+  -webkit-text-stroke-width: 4.8px;
+  -webkit-text-stroke-color: #0c4da2;
+  cursor: default;
+}
+
+#Latest-releases{
+  display: flex;
+  background-color: white;
+  box-shadow: 0 0 0 5px blue, 0 0 0 10px yellow, 0 0 0 15px blue;
+  border: none;
+  cursor: default;
+  margin: 5%;
+  height: auto;
+}
+
+.container {
+  margin: 5%;
+  display: grid;
+  max-width: 79%;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fill, minmax(35%, 1fr));
+  grid-template-rows: 35% 35%;
+  grid-auto-rows:35%;
+  align-items: center;
+  padding-left: 12%;
+  padding-bottom: 5%;
+  cursor: default;
+}
+
+#title-releases{
+  margin: 3%;
+  text-align: center;
+  font-size: 250%;
+  text-align: center;
+  color: #ffcb08;
+  font-family: "PT Sans", sans-serif;
+  -webkit-text-stroke-width: 4.8px;
+  -webkit-text-stroke-color: #0c4da2;
+  cursor: default;
+}
+
+.img-with-text {
+  text-align: justify;
+  width: 100%;
+  padding: 5%;
+  box-shadow: 1px 1px 1px 1px grey;
+  cursor: default;
+  margin: 2% ;
+}
+
+.img-with-text img {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 3%;
+  transition: 0.35s;
+}
+
+.img-with-text img:hover {
+  transform: scale(1.07);
+}
+
+#title-best-selling-games{
+  margin: 3%;
+  text-align: center;
+  font-size: 250%;
+  text-align: center;
+  color: #ffcb08;
+  font-family: "PT Sans", sans-serif;
+  -webkit-text-stroke-width: 4.8px;
+  -webkit-text-stroke-color: #0c4da2;
+  cursor: default;
+}
+
+#best-selling-games{
+  display: flex;
+  background-color: white;
+  box-shadow: 0 0 0 5px blue, 0 0 0 10px yellow, 0 0 0 15px blue;
+  border: none;
+  cursor: default;
+  margin: 5%;
+  height: auto;
+  margin-bottom: 10%;
+}
